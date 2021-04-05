@@ -15,7 +15,7 @@ namespace RadApiTests
         [Fact]
         public void FailingTest()  
         {
-            Assert.Equal(5, Add(2, 2));
+            Assert.Equal(4, Add(2, 2));
         }
 
         private int Add(int v1, int v2)
