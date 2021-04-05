@@ -1,0 +1,28 @@
+<p-menubar [model]="itemsNav">
+  <ng-template pTemplate="start"> </ng-template>
+  <ng-template pTemplate="end">
+    <input type="text" pInputText placeholder="Search" />
+  </ng-template>
+
+  <button
+    type="button"
+    pButton
+    label="Logout"
+    icon="pi pi-power-off"
+    style="margin-left: 0.25em"
+    (click)="logout()"
+  ></button>
+</p-menubar>
+
+<div class="sidenav">
+  <p-panelMenu
+    [model]="itemsSideNav"
+    [style]="{ width: '100%', height: '100%' }"
+  ></p-panelMenu>
+</div>
+
+<div class="main">
+  <div class="p-shadow-5 container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
