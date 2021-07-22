@@ -39,7 +39,7 @@
     "scrollreveal": "^4.0.0",
     "tslib": "^2.0.0",
     "web-animations-js": "2.3.2",
-    "xlsx": "^0.16.9",
+    "xlsx": "^0.17.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
